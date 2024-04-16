@@ -12,7 +12,7 @@ def plot():
         )
         .add(so.Line())
         .label(
-            title="Expectativa de vida en Oceanía amirite",
+            title="Expectativa de vida en Oceanía amirite yea",
             x="Año",
             y="Expectativa de vida",
             color="País",
