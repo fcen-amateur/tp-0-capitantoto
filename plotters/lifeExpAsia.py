@@ -21,6 +21,5 @@ def plot():
     return dict(
         descripcion="Expectativa de vida en países de Oceanía a lo largo del tiempo",
         autor="La cátedra",
-        mygod=42,
         figura=figura,
     )
