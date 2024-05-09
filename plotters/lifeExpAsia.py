@@ -5,7 +5,7 @@ from gapminder import gapminder
 def plot():
     figura = (
         so.Plot(
-            gapminder[gapminder.continent == "Oceania"],
+            gapminder[gapminder.continent == "Asia"],
             x="year",
             y="lifeExp",
             color="country",
@@ -20,6 +20,6 @@ def plot():
     )
     return dict(
         descripcion="Expectativa de vida en países de Oceanía a lo largo del tiempo",
-        autor="La cátedra, obvio",
+        autor="La cátedra",
         figura=figura,
     )
